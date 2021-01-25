@@ -1,0 +1,14 @@
+{
+  "name": "lc-document",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "deploy": "start deploy.sh"
+  },
+  "devDependencies": {
+    "vuepress": "^1.8.0"
+  }
+}
